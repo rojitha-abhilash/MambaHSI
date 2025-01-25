@@ -47,7 +47,7 @@ def get_parser():
     parser.add_argument('--data_set_path',type=str,default='./data')
     parser.add_argument('--work_dir',type=str,default='./')
     parser.add_argument('--lr', type=float, default=0.0003)
-    parser.add_argument('--max_epoch', type=int, default=200)
+    parser.add_argument('--max_epoch', type=int, default=20)
     parser.add_argument('--train_samples', type=int, default=30)
     parser.add_argument('--val_samples', type=int, default=10)
     parser.add_argument('--exp_name', type=str, default='RUNS')
